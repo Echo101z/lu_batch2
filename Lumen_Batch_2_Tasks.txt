@@ -177,7 +177,7 @@ Day 5 - Lab 1
 => DONE 1. Threads -Runnable
 => DONE 2. Threads - Thread Class
 
-Day 5 - Assignment
+Day 5 - Assignment-1
 
 Create a Java Class FileService with methods void writeToFile(String[] array) and 
  void  readFromFile() the methods should read and write data to a text file .
@@ -188,12 +188,158 @@ methods of FileService Class .
 
 The Threads should communitcate with each other by using wait and notifyall
 
+Day 5 - Lab 2
+
+DONE => Generics 
+
+DONE => Collection List -Comparable , Comparator
 
 
+Day 5 - Assignment-2
 
+1. Add a Method in the DataAccess interface to add more than one CreditCard
 
+2. Implement the method in the Service and test it
+
+3. Print The Names of the Top 3 CreditLimit Holders
+
+4. Print The Names of the Least 3 CreditLimit Holders
+
+5. Create a Class Called Transaction with id,description and amount
+
+6. Store this Transaction as a Set<Transaction> in CreditCard 
+
+7  Try to add and retirve those details.
 
 ===================================
+
+Day 6 - Lab -1
+
+=>DONE    1) HashSet
+=>DONE    2) HashMap / entryset
+=> DONE   3) Arrays 
+
+
+Day 6 - Assignment-1
+
+ 1. Create a Java Class - BloodDonor with properties like Id,name,age and bloodGroup
+ 2. Store the details of the donors in a Map Based Collection 
+ 3. The Key will be bloodgroup like 'apos','bpos','oneg' and the values will be 
+    all the donors in that group.
+
+ 4. Test the applicatin with a main method
+
+Day 6 - Lab 2
+
+=> DONE  1. Annotations 
+=> DONE  2. Annonymous Class , Inner Classes
+
+Day 6 - Assingmnet 2
+
+Refer the document in github.com/vatsanTraining/corejava  ->day7-Exercise.txt
+
+
+========================================================================= 
+Day - 7 -Lab 1
+
+ =>Done  1. Java Annonymous Class
+ =>DONE  2. Built in Legacy Functional Interfaces and Lambdas
+ =>DONE  3. Create a Custom Functional Interfaces
+ =>DONE  4. Implemnt interface with Lambdas
+Day -7 Assignment 1
+
+        1. Use the credit card Class created in the Previous exercise 
+        2. Create Lambda expression using BIFunction to test the name and 
+           credit limit is matching with a given value
+        3. Create a Lambda Expression using Supplier , Create a method which 	   takes a int argument if the value of integer is 0 the supplier will 
+           return zero argument Credit Card constructor else it will return            constructor with argument.
+       
+Day - 7 -Lab 2
+
+      =>DONE    1. Method Reference
+      =>DONE    2. default Method and static method in interface
+          3. Optional
+
+Day - 7 -Assignment -2 
+
+          1. Add Data Using Service and Test the Stream Methods
+=======================================================================
+
+
+
+Day -8 - Lab 1
+
+   => DONE 1. Streams - Sort 
+   => DONE 2. Streams -MAX,Count
+
+Day -8  Lab -2
+
+   =>DONE  1. Creating a JDBC Connection
+   =>DONE  2. CRUD Example 
+
+
+DAY-8 Assignment -1 
+
+    1. Implement the findById, update and remove Methods 
+    2. Optimize the code where ever its possible DRY
+    3. The Same code should not be repeated in diffrent methods of the same class
+    4. If it is so abstract it into a private method and complete
+    5. Test the 3 methods from application
+
+Day -8  Lab -3
+
+=>DONE    1. BatchUpdate
+=>DONE    2. Transaction
+=>DONE    3. MetaData
+=>DONE    4. RowSet - Pagination
+===========================================
+
+
+Java -cp first-example.jar com.poortoys.examples.AppMain
+
+Day - 9  Lab -1
+
+=>DONE      1. Maven
+=>DONE       2. log4j 
+=>DONE       3. json, 
+
+Day -9  Lab - 2
+            
+=>DONE 1.   Connection Pooling 
+
+Day -9  Lab - 3
+
+=>DONE1. unit Testing
+
+===============================================================================
+
+Day -10  Lab -1
+
+=> Creating Servlets
+=> Request Dispatcher
+=> Request Parameters
+
+Day -10 Assignment -1
+
+  1. Copy the Doctor Class From an exisiting Project
+  2. Update the addDoctor.html  and addtional input fields with HTML 5 validation for remaining 
+     properties in Doctor.java
+  3. In the doPost method of the servlet capture all the values and convert to Doctor Object
+  4. Display the Doctor Object in success.jsp
+
+Day -10 Assignment -1
+
+   1. Create a New Dyanmic Web Project login-service.
+   2. Create a Model Class User with properties like userName,passWord and role 
+   3. Create a Service called Validator with a Method validate(User user) that takes user as argument
+   4. In the Method check If the UserName and password is equal to india and india return true or else false
+   5. Create a Servler ValidationServlet , in the post method of the servlet read the userName and Password
+   6. Pass that to the validate(User user) method and capture the return value
+   7. If its true forward to success.jsp else failure.jsp
+
+
+=================================================================================
+
 
 
 
