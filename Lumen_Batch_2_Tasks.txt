@@ -374,7 +374,7 @@ Day-11 Assignment 2
 
 
                 UserName ----------------
-                 Plan --ab175---ab400----ab2000---
+                 Plan --ab175---ab400----ab2000---Make it as a radio Button
                          Submit 
 
                               Successfully Debit you new credit is ---99999---------
