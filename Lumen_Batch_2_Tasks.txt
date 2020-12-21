@@ -340,8 +340,49 @@ Day -10 Assignment -2
 
 =================================================================================
 
+Day -11 Lab -1
+
+Done => 1. Servlet Life Cycle
+Done => 2. Jsp transalated into Java
+DONE => 3. Expression/Declaration and Scriptlet in JSP
+DONE => 4. Adding JSTL Jars
+DONE => 5. Using JSTL Core Tags
+
+
+Day-11 Assignment 1
+     1. Complete StudentServlet 
+     2. Complete the HTML Form for Input
 
 
 
+Day -11 Lab -2
+
+=>Done   1.JSTL Implicit Object
+=>Done   2. include /jsp include
+=>Done   3. jsp:forward
 
 
+Day-11 Assignment 2
+
+  1. Create a Java Class Which maintain the list of users and their credit limit
+  2. The Web Application has a HTML Form thorugh which the user can Select an Plan
+  3. Once the user selects the Plan It goes to a Servlet where the cost of the item is calculated and the amount 
+     is debit from the users credit Limit 
+  4. If there is suffient credit Limit the transaction is completed and shows the balance 
+  5 If there are no sufficent balance without detecting the balance it just shows exisiting balance 
+  
+
+
+                UserName ----------------
+                 Plan --ab175---ab400----ab2000---
+                         Submit 
+
+                              Successfully Debit you new credit is ---99999---------
+
+
+                              Insufficent Balance -your limit is 9999 Try Adding amount 
+
+credit Limit 2000 =>  1600 
+
+
+Insufficent Balance your credit Limit 1600
