@@ -406,3 +406,24 @@ Day -12   Assignment -1
 
     6. When the User Click on view donors should go servlet -> DAO Impl ->servlet ->Jsp and show the donors in a table.
 
+Completed : abheneet,zaid,akshay,pavithra,yatharth,shreyas  6/14
+
+Day -12 - Lab -1 
+
+=>Done   1.Filters and Listners  
+
+
+Day -12   Assignment -2
+
+       1. Migrate the Day 10 -assignment 2 to Blood Donor Project 
+
+       2. If the username and password is matched store  valid User in session
+
+       3. Only Valid User can make a addDonor request - check the session has a attribute with a value validUser
+
+       4. If he is not a valid user redirect him login page
+
+       5. View Donors can be called by all the users.
+
+==================================================================================================
+
