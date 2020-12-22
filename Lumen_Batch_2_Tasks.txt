@@ -365,7 +365,7 @@ Day -11 Lab -2
 Day-11 Assignment 2
 
   1. Create a Java Class Which maintain the list of users and their credit limit
-  2. The Web Application has a HTML Form thorugh which the user can Select an Plan
+  2. The Web Application has a HTML Form thorugh which the user can Select a Plan
   3. Once the user selects the Plan It goes to a Servlet where the cost of the item is calculated and the amount 
      is debit from the users credit Limit 
   4. If there is suffient credit Limit the transaction is completed and shows the balance 
@@ -386,3 +386,23 @@ credit Limit 2000 =>  1600
 
 
 Insufficent Balance your credit Limit 1600
+=============================================================
+Day -12 - Lab -1 
+
+=>Done   1.Session Handling  
+  
+
+Day -12   Assignment -1
+
+    1. Create a java class to represent Blood Donor - should have properties like name,age,gender,bloodGroup,phoneNumber,email,dateOfBirth etc
+
+    2. Create a JSP Page with a HTML form and capture the values in the doPost method of the servlet
+
+    3.  Implement the DataAccess  Interface
+
+    4. Using the DAO Implementation save the data to the table
+
+    5. Create HTML File with links to Add and View Donors
+
+    6. When the User Click on view donors should go servlet -> DAO Impl ->servlet ->Jsp and show the donors in a table.
+
